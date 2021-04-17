@@ -1,0 +1,535 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid rgb(10, 15, 10); */
+}
+
+.page {
+    padding: 90px 0px 30px 0px;
+    background: #3A3C49;
+
+}
+.lmain_title00{
+    background: #3A3C49;
+}
+.main_title_stolb{
+    max-width: 964px;
+    margin: 0 auto;
+
+}
+.main_previy{
+    display: flex;
+    padding: 80px 0 0 0 ;
+    flex-direction: row;
+    background: #3A3C49;
+    
+}
+.dostavka,
+.rabotaenbistro,
+.pehataem{
+    padding: 0 15px 0 15px;
+}
+
+
+
+
+
+.rabotaem_title{
+    padding: 30px 0 0 0;
+}
+.rabotaem_title h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    padding: 0 0 30px;
+    line-height: 117%;
+    
+}
+.rabotaem_title p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 115%;
+}
+
+
+.img_dostavka,
+.img_pehataem,
+.img_rabotaem{
+    text-align: center;
+}
+.zakazatpeh{
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 0 0;
+}
+.zakazatpeh a{
+    padding: 14px 63px;
+    background-color: #FFE676;
+    
+    transition: box-shadow 0.4s ease;
+    border-radius: 30px;
+    font-size: 22px;
+    line-height: 118%;
+    color: #333333;
+
+}
+.bykvi_CMYK {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+    
+}
+.c{ 
+    width: 150px;
+    height: 165px;
+    overflow: hidden;
+    
+}
+.c img{
+    max-width: 100%;
+}
+.m{ 
+    width: 200px;
+    height: 165px;
+    overflow: hidden;
+    
+}
+.m img{
+    max-width: 100%;
+}
+.y{ 
+    width: 200px;
+    height: 165px;
+    overflow: hidden;
+    
+}
+.y img{
+    max-width: 100%;
+}
+.k{ 
+    width: 150px;
+    height: 160px;
+    overflow: hidden;
+    
+}
+.k img{
+    max-width: 100%;
+}
+.prace_list{
+    max-width: 2100px ;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.atik h2{
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 0 0 10px 0;
+}
+.atik h3{
+    color: #fff;
+    font-size: 24px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 0 0 10px 0;
+}
+.atik h4{
+    color: #FFE367;
+    font-size: 15px; 
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.img_atik{
+    width: 90px;
+    height: 150px;
+    overflow: hidden;
+    flex: 0 0   300px;
+    display: none;
+    border-radius: 25px 0px 0px 25px;
+}
+.img_atik img{
+    max-width: 100%;
+    
+}
+.first_stolb,
+.two_stolb,
+.three_stolb,
+.four_stolb{
+    display: flex;
+
+}
+.first_stolb{
+    padding: 0 0 0 0px  ;
+}
+.two_stolb{
+    padding: 0 25px 0 0;
+}
+.three_stolb{
+    padding: 0 10px 0 0;
+}
+.four_stolb{
+    padding: 0  0px 0 0 0;
+}
+
+@media (max-width: 767px){
+    .prace_list{
+        flex-direction: column;
+    }
+    .img_atik{
+        
+        display: block;
+    }
+    .first_stolb{
+        padding: 0 0 0 0  ;
+        box-shadow: -2px -4px 4px #606479, 2px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+    }
+    .atik{
+        margin: 25px ;
+    }
+    .prace_list{
+        margin: 30px 5px 0 5px ;
+    }
+    .first_stolb{
+        margin: 0 0 0 0px  ;
+    }
+    .two_stolb{
+        /* margin: 0 25px 0 0; */
+        box-shadow: -2px -4px 4px #606479, 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+    }
+    .three_stolb{
+        /* margin: 0 10px 0 0; */
+        box-shadow: -2px -4px 4px #606479, 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+    }
+    .four_stolb{
+        /* margin: 0  0px 0 0 0; */
+        box-shadow: -2px -4px 4px #606479, 2px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+    }
+    
+}
+
+    
+
+
+
+
+
+
+.zakazatpeh a:hover{
+    background-color: #f0d45a;
+    box-shadow: 0px -4px 10px rgba(255, 255, 255, 0.5), 0px 4px 16px rgba(13, 13, 13, 0.6);
+}
+@media (max-width: 767px){
+    
+    .main_previy{
+        flex-direction: column;
+    }
+    .dostavka, .rabotaenbistro, .pehataem {
+        padding: 0 15px 77px 15px;
+    }
+    .bykvi_CMYK{
+        padding: 40px 20px 0 20px;
+    }
+    .c{ 
+        width: 18%;
+        height: 18%;
+        overflow: hidden;
+        
+    }
+    .c img{
+        max-width: 100%;
+    }
+    .m{ 
+        width: 22%;
+        height: 18%;
+        overflow: hidden;
+        
+    }
+    .m img{
+        max-width: 100%;
+    }
+    .y{ 
+        width: 18%;
+        height: 18%;
+        overflow: hidden;
+        
+    }
+    .y img{
+        max-width: 100%;
+    }
+    .k{ 
+        width: 18%;
+        height: 18%;
+        overflow: hidden;
+        
+    }
+    .k img{
+        max-width: 100%;
+    }
+    
+    
+}
+
+
+
+
+/* Не то дерьмо */
+.page_sub-title {
+    font-size: 30%;
+    margin: 0px 0px  20px 0px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(235, 160, 160);
+}
+.header_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+}
+.header_logo {
+    border-radius: 50%;
+    background-color: white;
+    z-index: 5;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.header_menu {
+}
+.menu {
+}
+.menu_icon {
+}
+.menu_body {
+}
+.menu_list {
+    
+}
+.menu_list > li{
+    position: relative;
+    margin: 0px 0px 0px 20px;
+
+}
+.menu_link {
+    color: #fff;
+    font-size: 18px;
+}
+.menu_link:hover{
+    text-decoration: underline;
+
+}
+.menu_sab-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #000;
+    padding: 15px;
+    min-width: 200px;
+    visibility: hidden;
+}
+.menu_sab-list > li{
+    margin: 0px 0px 10px 0px;
+}
+.menu_sab-list > li:last-child{
+    margin: 0;
+}
+.menu_sub-link {
+    color: #fff;
+}
+.menu_sub-link:hover{
+    text-decoration: underline;
+}
+.menu_arrow{
+    display:none;
+}
+/* ---------------------------------- */
+body._pc .menu_list > li:hover .menu_sab-list{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px, ) ;
+    pointer-events: all;
+}
+body._touch .menu_list > li{
+    display: flex;
+    align-items: center;
+}
+body._touch .menu_link{
+    flex: 1 1 auto;
+}
+
+body._touch .menu_arrow{
+    display: block;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #fff;
+    transition: transform 0.3s ease 0s;
+    width: 0;
+    height: 0;
+    margin: 0px 0px 0px 5px;
+}
+/* Работа с с тачскринами, у li класс такой, потому что при нажатии, работает скримпт джс
+._activr */
+body._touch .menu_list > li._active .menu_sab-list{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px, ) ;
+    pointer-events: all;
+}
+body._touch .menu_list > li._active .menu_arrow{
+    transform: rotate(-180deg);   
+}
+
+
+
+
+
+@media (min-width:767px){
+    .menu_list{
+        display: flex;
+        align-items: center;
+    }
+    .menu_list > li{
+        padding: 10px 0;
+    }
+    .menu_sab-list{
+        transform:translate(0px, 10%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease 0s;
+        pointer-events: none;
+    }
+}
+@media (max-width:767px) {
+    .menu_icon{
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+        
+    }
+    .menu_icon span,
+    .menu_icon::before,
+    .menu_icon::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease;
+        background-color: #fff;
+    }
+    .menu_icon::before,
+    .menu_icon::after {
+        content: "";
+    }
+    .menu_icon::before{
+        top: 0;
+    }
+    .menu_icon::after{
+        bottom: 0;
+    }
+    .menu_icon span{
+        top: 50%;
+        transform:scale(1) translate(0px, -50%) ;
+    }
+
+    /* Анимация бургера, когда он крестик */
+    .menu_icon._active span{
+        transform: scale(0) translate(0px, -50%) ;
+    }
+    .menu_icon._active::before{
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%) ;
+    }
+    .menu_icon._active::after{
+        top: 50%;
+        transform: rotate(45deg) translate(0px, 50%) ;
+    }
+        /* описание, как будет уходить бургерное меню при нажатиии */
+     .menu_body {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        /* background-color: black; */
+        background-image: url(gr.jpg);
+        padding: 100px 30px 30px 30px;
+        transition: right 0.3s ease 0s;
+        overflow: auto;
+    } 
+    /* Блокировка скорола, когда бургер активен */
+    body._lock{
+        overflow: hidden;
+    }
+    .menu_body._active{
+        right: 0;
+    }
+        /* Хед при мобтльноми размере экрана */
+    .menu_body::before{
+        content: "";
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 78px;
+        background-color: rgb(235, 160, 160);
+        z-index: 2;
+    }
+    .menu_list > li{
+        flex-wrap: wrap;
+        margin: 0px 0px 30px 0px ;
+    }
+    .menu_list > li:last-child{
+        margin-bottom: 0;
+    }
+    .menu_list > li._active .menu_sab-list{
+        display: block;
+    }
+    .menu_link{
+        font-size: 24px;
+    }
+    .menu_sab-list{
+        position: relative;
+        /* background-color: #fff; */
+        background-image: url(gr2.png);
+        background-size: cover;
+        flex: 1 1 100%;
+        margin: 20px 0px 0px 0px;
+        display: none;
+    }
+    .menu_sub-link{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+}
